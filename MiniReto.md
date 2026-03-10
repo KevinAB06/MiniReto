@@ -3,6 +3,7 @@ Contexto del reto
 Imaginemos que nuestro sistema de notificaciones ya funciona correctamente usando el principio de sustitución de Liskov.
 
 Actualmente tenemos tres tipos de notificación:
+
 -SmsNotificacion
 -EmailNotificacion
 -PushNotificacion
