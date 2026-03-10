@@ -3,9 +3,9 @@
 Imaginemos que nuestro sistema de notificaciones ya funciona correctamente usando el principio de sustitución de Liskov.
 
 **Actualmente tenemos tres tipos de notificación:**
--SmsNotificacion
--EmailNotificacion
--PushNotificacion
+- SmsNotificacion
+- EmailNotificacion
+- PushNotificacion
 Cada una utiliza su propia política de envío a través de la interfaz PoliticaEnvio.
 
 #Situación nueva
