@@ -20,13 +20,15 @@ Pero este canal tiene una regla especial:
 **Reto para los estudiantes**
 
 Diseñar la integración de WhatsAppNotificacion dentro del sistema sin romper el principio de sustitución de Liskov.
+
 Para esto deben responder:
-1️- ¿Qué nueva política de envío deberían crear?
-2️- ¿Cómo debería integrarse la nueva notificación dentro del sistema existente?
-3️- ¿Se debería modificar alguna clase existente o solo agregar nuevas?
-4️- ¿Cómo asegurar que WhatsAppNotificacion pueda sustituir a cualquier Notificacion sin romper el sistema?
+- ¿Qué nueva política de envío deberían crear?
+- ¿Cómo debería integrarse la nueva notificación dentro del sistema existente?
+- ¿Se debería modificar alguna clase existente o solo agregar nuevas?
+- ¿Cómo asegurar que WhatsAppNotificacion pueda sustituir a cualquier Notificacion sin romper el sistema?
 
 **Implementar:**
 - PoliticaWhatsApp
 - WhatsAppNotificacion
+
 Respetando la arquitectura existente.
