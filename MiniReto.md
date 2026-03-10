@@ -9,6 +9,7 @@ Imaginemos que nuestro sistema de notificaciones ya funciona correctamente usand
 Cada una utiliza su propia política de envío a través de la interfaz PoliticaEnvio.
 
 **Situación nueva**
+
 La empresa ahora quiere agregar un nuevo canal de comunicación:
 - Notificaciones por WhatsApp
 
@@ -17,6 +18,7 @@ Pero este canal tiene una regla especial:
 - Debe incluir un número de teléfono válido
 
 **Reto para los estudiantes**
+
 Diseñar la integración de WhatsAppNotificacion dentro del sistema sin romper el principio de sustitución de Liskov.
 Para esto deben responder:
 1️- ¿Qué nueva política de envío deberían crear?
