@@ -20,3 +20,15 @@ El código contiene intencionalmente:
 -   Simulación de procesos pesados
 
 El objetivo es refactorizar el sistema aplicando SOLID.
+Objetivo del reto
+
+1.  Analizar el sistema
+2.  Identificar violaciones SOLID
+3.  Rediseñar arquitectura
+4.  Aplicar ISP
+5.  Aplicar LSP
+6.  Permitir agregar:
+
+EscanerEnLaNube
+
+Sin modificar código existente.
