@@ -1,34 +1,22 @@
-# MiniReto
-**Contexto del reto**
-Imaginemos que nuestro sistema de notificaciones ya funciona correctamente usando el principio de sustitución de Liskov.
+Reto Arquitectura – Sistema de Impresoras Legacy (Versión EXTENDIDA)
 
-**Actualmente tenemos tres tipos de notificación:**
-- SmsNotificacion
-- EmailNotificacion
-- PushNotificacion
-Cada una utiliza su propia política de envío a través de la interfaz PoliticaEnvio.
+La empresa PrintCorp tiene un sistema antiguo extremadamente difícil de
+mantener. Este proyecto simula un sistema legacy real lleno de malas
+prácticas.
 
-**Situación nueva**
+El código contiene intencionalmente:
 
-La empresa ahora quiere agregar un nuevo canal de comunicación:
-- Notificaciones por WhatsApp
+-   Violaciones de ISP
+-   Violaciones de LSP
+-   Clases gigantes
+-   Métodos que no se usan
+-   Código duplicado
+-   Procesos innecesariamente largos
+-   Validaciones redundantes
+-   Lógica mezclada
+-   Dependencias incorrectas
+-   Responsabilidades mezcladas
+-   Bucles innecesarios
+-   Simulación de procesos pesados
 
-Pero este canal tiene una regla especial:
-- El mensaje no puede superar los 500 caracteres
-- Debe incluir un número de teléfono válido
-
-**Reto para los estudiantes**
-
-Diseñar la integración de WhatsAppNotificacion dentro del sistema sin romper el principio de sustitución de Liskov.
-
-Para esto deben responder:
-- ¿Qué nueva política de envío deberían crear?
-- ¿Cómo debería integrarse la nueva notificación dentro del sistema existente?
-- ¿Se debería modificar alguna clase existente o solo agregar nuevas?
-- ¿Cómo asegurar que WhatsAppNotificacion pueda sustituir a cualquier Notificacion sin romper el sistema?
-
-**Implementar:**
-- PoliticaWhatsApp
-- WhatsAppNotificacion
-
-Respetando la arquitectura existente.
+El objetivo es refactorizar el sistema aplicando SOLID.
